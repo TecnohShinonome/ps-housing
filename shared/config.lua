@@ -74,60 +74,60 @@ Config.ShowCustomizerWhenNoStartingApartment = true
 
 Config.Apartments = {
     ["Integrity Way"] = {
-        label = "Integrity Way",
+        label = "インテグリティ・ウェイ",
         door = { x = 269.73, y = -640.75, z = 42.02, h = 249.07, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/e5a352a3-afb1-4452-ab52-e239e53d901a.png",
-                label = "Outside",
+                label = "外観",
             },
         },
         shell = "Apartment Furnished",
     },
 
     ["South Rockford Drive"] = {
-        label = "South Rockford Drive",
+        label = "サウス・ロックフォード・ドライブ",
         door = { x = -667.02, y = -1105.24, z = 14.63, h = 242.32, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/aa88b5df-c4c8-4706-beb0-8d8197e0ccff.png",
-                label = "Outside",
+                label = "外観",
             },
         },
         shell = "Apartment Furnished",
     },
 
     ['Morningwood Blvd'] = {
-        label = 'Morningwood Blvd',
+        label = 'モーニングウッド・ブルバード',
         door = { x = -1288.52, y = -430.51, z = 35.15, h = 124.81, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/c53dbc10-d161-4b34-a095-316949588f33.png",
-                label = "Outside",
+                label = "外観",
             },
         },
         shell = "Apartment Furnished",
     },
 
     ['Tinsel Towers'] = {
-        label = 'Tinsel Towers',
+        label = 'ティンセル・タワーズ',
         door = { x = -619.29, y = 37.69, z = 43.59, h = 181.03, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/0663c90e-2e90-426d-80ea-a780727b4a76.png",
-                label = "Outside",
+                label = "外観",
             },
         },
         shell = "Apartment Furnished",
     },
 
     ['Fantastic Plaza'] = {
-        label = 'Fantastic Plaza',
+        label = 'ファンタスティック・プラザ',
         door = { x = 291.517, y = -1078.674, z = 29.405, h = 270.75, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/d618a25e-2f88-47c5-b065-515cbd34cb3f.png",
-                label = "Outside",
+                label = "外部",
             },
         },
         shell = "Apartment Furnished",
@@ -135,12 +135,12 @@ Config.Apartments = {
 
     ---ipl
     ['Modern 1 Apartment'] = {
-        label = 'Modern 1 Apartment',
+        label = 'モダン 1 アパートメント',
         door = { x = -771.18, y = 319.64, z = 85.66, h = 351.95, length = 1, width = 2 },
         imgs = {
             {
                 url = "https://files.fivemerr.com/images/d618a25e-2f88-47c5-b065-515cbd34cb3f.png",
-                label = "Outside",
+                label = "外観",
             },
         },
         interior = vector3(-786.8663, 315.7642, 217.6385),
@@ -180,7 +180,7 @@ Config.Shells = {
     },
 
     ["Standard Motel"] = {
-        label = "Standard Motel",
+        label = "スタンダード・モーテル",
         hash = `standardmotel_shell`,
         doorOffset = { x = -0.5, y = -2.3, z = 0.0, h = 90.0, width = 1.5 },
         stash = {
@@ -196,7 +196,7 @@ Config.Shells = {
     },
 
     ["Modern Hotel"] = {
-        label = "Modern Hotel",
+        label = "モダン・ホテル",
         hash = `modernhotel_shell`,
         doorOffset = { x = 4.98, y = 4.35, z = 0.0, h = 179.79, width = 2.0  },
         stash = {
@@ -216,7 +216,7 @@ Config.Shells = {
     },
 
     ["Apartment Furnished"] = {
-        label = "Apartment Furnished",
+        label = "家具付きアパート",
         hash = `furnitured_midapart`,
         doorOffset = { x = 1.44, y = -10.25, z = 0.0, h = 0.0, width = 1.5  },
         stash = {
@@ -252,7 +252,7 @@ Config.Shells = {
     },
 
     ["Apartment Unfurnished"] = {
-        label = "Apartment Unfurnished",
+        label = "家具なしアパート",
         hash = `shell_v16mid`,
         doorOffset = { x = 1.34, y = -14.36, z = -0.5, h = 354.08, width = 1.5  },
         stash = {
@@ -284,7 +284,7 @@ Config.Shells = {
     },
 
     ["Apartment 2 Unfurnished"] = {
-        label = "Apartment 2 Unfurnished",
+        label = "家具なしアパート2",
         hash = `shell_v16low`,
         doorOffset = { x = 4.69, y = -6.5, z = -1.0, h = 358.50, width = 1.5  },
         stash = {
@@ -308,7 +308,7 @@ Config.Shells = {
     },
 
     ["Garage"] = {
-        label = "Garage",
+        label = "ガレージ",
         hash = `shell_garagem`,
         doorOffset = { x = 14.0, y = 1.7, z = -0.76, h = 88.49, width = 2.0  },
         stash = {
@@ -328,7 +328,7 @@ Config.Shells = {
     },
 
     ["Office"] = {
-        label = "Office",
+        label = "オフィス",
         hash = `shell_office1`,
         doorOffset = { x = 1.2, y = 4.90, z = -0.73, h = 180.0, width = 2.0  },
         stash = {
@@ -388,7 +388,7 @@ Config.Shells = {
     },
 
     ["Container"] = {
-        label = "Container",
+        label = "コンテナ",
         hash = `container_shell`,
         doorOffset = { x = 0.05, y = -5.7, z = -0.22, h = 1.7, width = 2.2  },
         stash = {
@@ -452,7 +452,7 @@ Config.Shells = {
     },
 
     ["House 1"] = {
-        label = "House 1",
+        label = "家 1",
         hash = `shell_frankaunt`,
         doorOffset = { x = -0.34, y = -5.97, z = -0.57, h = 357.23, width = 2.0  },
         stash = {
@@ -492,7 +492,7 @@ Config.Shells = {
     },
 
     ["House 2"] = {
-        label = "House 2",
+        label = "家 2",
         hash = `shell_ranch`,
         doorOffset = { x = -1.23, y = -5.54, z = -1.1, h = 272.21, width = 2.0  },
         stash = {
@@ -524,7 +524,7 @@ Config.Shells = {
     },
 
     ["House 3"] = {
-        label = "House 3",
+        label = "家 3",
         hash = `shell_lester`,
         doorOffset = { x = -1.61, y = -6.02, z = -0.37, h = 357.7, width = 2.0  },
         stash = {
@@ -548,7 +548,7 @@ Config.Shells = {
     },
 
     ["House 4"] = {
-        label = "House 4",
+        label = "家 4",
         hash = `shell_trevor`,
         doorOffset = { x = 0.2, y = -3.82, z = -0.41, h = 358.4, width = 2.0  },
         stash = {
