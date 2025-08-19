@@ -312,7 +312,7 @@ Framework.ox = {
             debug = Config.DebugMode,
             options = {
                 {
-                    label = "Enter Property",
+                    label = "物件に入る",
                     icon = "fas fa-door-open",
                     onSelect = enter,
                     canInteract = function()
@@ -321,7 +321,7 @@ Framework.ox = {
                     end,
                 },
                 {
-                    label = "Showcase Property",
+                    label = "物件ショーケース",
                     icon = "fas fa-eye",
                     onSelect = showcase,
                     canInteract = function()
@@ -335,7 +335,7 @@ Framework.ox = {
                     end,
                 },
                 {
-                    label = "Property Info",
+                    label = "物件情報",
                     icon = "fas fa-circle-info",
                     onSelect = showData,
                     canInteract = function()
@@ -346,7 +346,7 @@ Framework.ox = {
                     end,
                 },
                 {
-                    label = "Ring Doorbell",
+                    label = "ドアベルを鳴らす",
                     icon = "fas fa-bell",
                     onSelect = enter,
                     canInteract = function()
@@ -355,7 +355,7 @@ Framework.ox = {
                     end,
                 },
                 {
-                    label = "Raid Property",
+                    label = "物件レイド",
                     icon = "fas fa-building-shield",
                     onSelect = raid,
                     canInteract = function()
@@ -381,7 +381,7 @@ Framework.ox = {
             debug = Config.DebugMode,
             options = {
                 {
-                    label = "Enter Apartment",
+                    label = "アパートに入る",
                     onSelect = enter,
                     icon = "fas fa-door-open",
                     canInteract = function()
@@ -390,12 +390,12 @@ Framework.ox = {
                     end,
                 },
                 {
-                    label = "See all apartments",
+                    label = "すべてのアパートを見る",
                     onSelect = seeAll,
                     icon = "fas fa-circle-info",
                 },
                 {
-                    label = "Raid Apartment",
+                    label = "アパートをレイド",
                     onSelect = seeAllToRaid,
                     icon = "fas fa-building-shield",
                     canInteract = function()
